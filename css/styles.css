@@ -1,0 +1,148 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+/* шрифты */
+/* font-family: "Playfair Display", serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+
+/* NAVIGATION SITE */
+
+.header {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 76px;
+  margin-bottom: 104px;
+}
+
+.navigation {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.container {
+  display: block;
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navigation-list {
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 0px;
+}
+
+.navigation-list-item {
+  display: inline-block;
+  list-style: none;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 120px;
+}
+
+.navigation-list-item-link {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navigation-list-item-link:hover,
+.navigation-list-item-link:focus {
+  color: rgb(3, 169, 244);
+}
+
+/* MAIN */
+
+.section-with-image {
+  width: 900px;
+  margin: 0 auto;
+  font-size: 0px;
+  display: block;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-block {
+  display: inline-block;
+  width: 420px;
+  height: auto;
+  font-size: 0;
+  margin-bottom: 140px;
+}
+
+.image-block:not(:last-child) {
+  margin-right: 60px;
+}
+
+.image-block:nth-child(2n) {
+  margin-right: 0px;
+}
+
+.image-block:nth-last-child(-n + 2) {
+  margin-bottom: 0px;
+}
+
+.image-block-subtitle {
+  font-size: 14px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.image-block-title {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  font-weight: lighter;
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+}
+
+.image-block-text {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 24px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  display: inline-block;
+  text-align: center;
+  margin-top: 56px;
+  margin-bottom: 70px;
+  cursor: pointer;
+}
+.modal-button {
+  font-family: "Playfair Display";
+  font-size: 20px;
+  line-height: 1.2;
+  color: rgb(98, 98, 98);
+  width: 164px;
+  height: 60px;
+  padding: 0;
+  border-width: 1px;
+  border-color: rgb(98, 98, 98);
+  border-style: solid;
+  background-color: transparent;
+}
